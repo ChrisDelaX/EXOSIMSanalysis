@@ -1,0 +1,104 @@
+{
+  "missionLife": 1.0,
+  "missionPortion": 0.5,
+  "missionStart": 65000,
+  "ohTime": 0.1,
+  "keepStarCatalog": true,
+  "minComp": 0.07,
+  "pupilDiam": 6,
+  "obscurFac": 0,
+  "dMagLim": 26,
+  "telescopeKeepout": 60,
+  "attenuation": 0.65,
+  "intCutoff": 100.0,
+  "settlingTime": 0.0, 
+  "ppFact": 0.1,
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.01],
+  "eta": 1.0,
+  "arange":[0.75, 1.77],
+  "Rprange":[1.0, 1.0],
+  "Mprange":[1, 1],
+  "scaleOrbits": true,
+  "constrainOrbits": true,
+  "scienceInstruments": [
+    {
+      "name": "imagingEMCCD",
+      "focal": 180,
+      "pitch": 5e-6,
+      "QE": 0.999,
+      "idark": 0.0,
+      "CIC": 0,
+      "sread": 0.0,
+      "ENF": 1,
+      "texp": 1000
+    },
+    {
+      "name": "spectroEMCCD",
+      "focal": 180,
+      "pitch": 5e-6,
+      "QE": 0.999,
+      "idark": 0.0,
+      "CIC": 0,
+      "sread": 0.0,
+      "ENF": 1,
+      "texp": 1000,
+      "Rs": 50
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC550",
+      "lam": 550,
+      "IWA": 0.038,
+      "OWA": 1.418,
+      "ohTime": 0.1,
+      "throughput": 0.2,
+      "BW": 0.10,
+      "occ_trans": 1.0,
+      "core_thruput": 0.69, 
+      "core_contrast": 1.7880e-10
+    },
+        {
+      "name": "HLC1000",
+      "lam": 1000,
+      "BW": 0.1,
+      "IWA": 0.0688,
+      "OWA": 2.5783,
+      "ohTime": 0.2,
+      "occ_trans": 1.0,
+      "core_thruput": 0.69, 
+      "core_contrast": 1.7880e-10
+    }
+  ],
+      "observingModes": [
+    {
+      "instName": "imagingEMCCD",
+      "systName": "HLC550",
+      "detection": 1,
+      "SNR": 7
+    },
+    {
+      "instName": "spectroEMCCD",
+      "systName": "HLC1000",
+      "SNR": 5
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "EarthTwinHabZone1",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "KasdinBraems",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": " ",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "GarrettCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": " ",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": "IPClusterEnsemble"
+  }
+}
+

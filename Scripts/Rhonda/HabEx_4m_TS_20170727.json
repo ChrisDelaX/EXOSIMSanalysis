@@ -1,0 +1,128 @@
+{
+  "missionLife": 1.0,
+  "missionPortion": 1.0,
+  "keepStarCatalog": true,
+  "minComp": 0.2,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26.5,
+  "dMagint": 25,
+  "koAngleMin": 45,
+  "koAngleMax": 83,
+  "attenuation": 0.3,
+  "intCutoff": 50.0,
+ 
+  "settlingTime": 0.5, 
+  "thrust": 450,
+  "slewIsp": 4160,
+  "scMass": 6000,
+  "dryMass": 3400,
+  "coMass":5800,
+  "occulterSep":124000,
+  "skIsp": 220,
+  "defburnPortion":0.35,
+  
+  "ppFact": 0.1,
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.01],
+  "eta": 1.0,
+  "arange":[0.75, 1.77],
+  "Rprange":[1.0, 1.0],
+  "Mprange":[1, 1],
+  "scaleOrbits": true,
+  "constrainOrbits": true,
+  "occHIPs":"top40stars_4m_VC6_20170420_pp.txt",
+  "scienceInstruments": [
+    {
+      "name": "imagingEMCCD",
+      "QE": 0.9,
+      "FoV": 0.8,
+      "pixelNumber": 138,
+      "pixelSize": 16e-6,
+      "core_platescale": 0.2441,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 1.3e-3,
+      "texp": 100,
+      "ENF": 1
+    },
+    {
+      "name": "spectroEMCCD",
+      "QE": 0.9,
+      "FoV": 2.97,
+      "pixelNumber": 512,
+      "pixelSize": 16e-6,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 2.1e-3,
+      "texp": 300,
+      "ENF": 1,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC550",
+      "lam": 500,
+      "IWA": 0.045,
+      "OWA": 2.127,
+      "ohTime": 0.1,
+      "BW": 0.10,
+      "occ_trans": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_mean_intensity.fits"
+
+    },
+    {
+      "name": "Occulter_testcase",
+      "occulter": true,
+
+      "lam": 725,
+      "IWA": 0.04846,
+      "OWA": 5.9,
+      "ohTime": 0.0,
+      "BW": 0.3875,
+      "occ_trans": 0.6,
+      "occulterDiameter": 32,
+      "NocculterDistances" :1,
+      "occulterDistances": [
+        {
+        "occulterDistance": 124000,
+        "occulterRedEdge": 1000,
+        "occulterBlueEdge": 450
+        }
+      ],
+      "core_thruput": 0.6, 
+      "core_contrast": 1e-10
+    }
+ ],
+      "observingModes": [
+    {
+      "instName": "imagingEMCCD",
+      "systName": "HLC550",
+      "detection": 1,
+      "SNR": 7
+    },
+    {
+      "instName": "spectroEMCCD",
+      "systName": "Occulter_testcase",
+      "SNR": 5
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "EarthTwinHabZone1",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": " ",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "GarrettCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": " ",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": " "
+  }
+}

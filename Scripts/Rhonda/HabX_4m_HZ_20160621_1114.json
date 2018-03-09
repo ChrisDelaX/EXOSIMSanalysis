@@ -1,0 +1,72 @@
+{
+  "missionLife": 0.1,
+  "missionPortion": 1.0,
+  "keepStarCatalog": false,
+  "minComp": 0.1,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26.0,
+  "telescopeKeepout": 45,
+  "attenuation": 0.6333,
+  "SNimag": 5.0,
+  "SNchar": 10.0,
+  "ppFact": 0.1,
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.35],
+  "eta": 0.16,
+  "scaleOrbits": true,
+  "scienceInstruments": [
+    {
+      "type": "imaging-EMCCD",
+      "lam": 550,
+      "BW": 0.20,
+      "QE": 0.91,
+      "CIC": 3e-3,
+      "ENF": 1.414,
+      "Gem": 500
+    },
+    {
+      "type": "spectro-EMCCD",
+      "lam": 1000,
+      "BW": 0.1,
+      "QE": 0.91,
+      "CIC": 3e-3,
+      "ENF": 1.414,
+      "Gem": 500,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "type": "internal-imaging-HLC",
+      "IWA": 0.0567,
+      "OWA": 0.567,
+      "throughput": 0.3,
+      "contrast": 1e-10
+    },
+        {
+      "type": "internal-spectro-HLC",
+      "IWA": 0.103,
+      "OWA": 1.03,
+      "throughput": 0.3,
+      "contrast": 1e-10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "EarthTwinHabZone2",
+    "StarCatalog": "EXOCATXLS",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "BrownCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": " ",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": " "
+  }
+}
+

@@ -1,0 +1,252 @@
+{
+    "FAP": 3e-07,
+    "IWA": 0.15,
+    "Irange": [
+        0.0,
+        180.0
+    ],
+    "MDP": 0.001,
+    "Mprange": [
+        1.0,
+        4131.0
+    ],
+    "Ndark": 10.0,
+    "OBduration": 3000.0,
+    "OBendTimes": [
+        365.25
+    ],
+    "OBnumber": 0,
+    "OBstartTimes": [
+        0.0
+    ],
+    "OWA": 0.557002,
+    "Orange": [
+        0.0,
+        360.0
+    ],
+    "Revision": "Github commit 20c7f3583accd5e2085fb1cd62cc982724100a23   Sat Jul 22 19:56:52 2017 -0700",
+    "Rprange": [
+        1.0,
+        22.6
+    ],
+    "WAint": 0.289498,
+    "arange": [
+        0.1,
+        100.0
+    ],
+    "charMargin": 0.15,
+    "checkKeepoutEnd": false,
+    "coMass": 5800.0,
+    "constrainOrbits": false,
+    "currentTimeAbs": 60634.0,
+    "currentTimeNorm": 0.0,
+    "dMagLim": 22.5,
+    "dMagint": 22.5,
+    "defburnPortion": 0.05,
+    "dryMass": 3400.0,
+    "erange": [
+        0.01,
+        0.99
+    ],
+    "esigma": 0.25,
+    "eta": 0.1,
+    "extendedLife": 0.0,
+    "fEZ0": 1.584893192461111e-09,
+    "fZ0": 6.309573444801917e-10,
+    "flowRate": 0.95304246059091,
+    "forceStaticEphem": false,
+    "haveOcculter": false,
+    "havejplephem": true,
+    "intCutoff": 50.0,
+    "keepStarCatalog": false,
+    "koAngleMax": 90.0,
+    "koAngleMin": 45.0,
+    "koAngleSmall": 1.0,
+    "magEZ": 22.0,
+    "magZ": 23.0,
+    "maxFAfluxratio": 1e-06,
+    "minComp": 0.0,
+    "missionFinishAbs": 60999.25,
+    "missionFinishNorm": 365.25,
+    "missionLife": 1.0,
+    "missionPortion": 1.0,
+    "missionStart": 60634.0,
+    "modules": {
+        "BackgroundSources": "BackgroundSources",
+        "Completeness": "GarrettCompleteness",
+        "Observatory": "WFIRSTObservatoryL2",
+        "OpticalSystem": "Nemati",
+        "PlanetPhysicalModel": "Forecaster",
+        "PlanetPopulation": "KeplerLike2",
+        "PostProcessing": "PostProcessing",
+        "SimulatedUniverse": "KeplerLikeUniverse",
+        "StarCatalog": "EXOCAT1",
+        "SurveyEnsemble": "SurveyEnsemble",
+        "SurveySimulation": "SurveySimulation",
+        "TargetList": "TargetList",
+        "TimeKeeping": "TimeKeeping",
+        "ZodiacalLight": "Stark"
+    },
+    "nStars": 706,
+    "ntFlux": 1,
+    "obsEnd": 0.0,
+    "obsStart": 0.0,
+    "obscurFac": 0.1724,
+    "observingModes": [
+        {
+            "SNR": 5,
+            "detectionMode": true,
+            "instName": "imager",
+            "radDos": 0.5,
+            "systName": "HLC-565"
+        },
+        {
+            "SNR": 10,
+            "instName": "spectro",
+            "lam": 660,
+            "radDos": 1.0,
+            "systName": "SPC-660"
+        }
+    ],
+    "occulterSep": 55000.0,
+    "ppFact": 0.1,
+    "prange": [
+        0.083,
+        0.882
+    ],
+    "pupilArea": 3.6509598364437466,
+    "pupilDiam": 2.37,
+    "ref_Time": 0.2,
+    "ref_dMag": 3.0,
+    "rrange": [
+        0.0010000000000000009,
+        199.0
+    ],
+    "scMass": 6000.0,
+    "scaleOrbits": false,
+    "scienceInstruments": [
+        {
+            "CIC": 0.01,
+            "ENF": 1.0,
+            "FoV": 9.5,
+            "PCeff": 0.8,
+            "QE": "$HOME/INSTRUMENTS/WFIRST/QE/Basic_Multi2_std_Si.fits",
+            "Rs": 1.0,
+            "fnumber": 60.97706197560175,
+            "focal": 144.51563688217615,
+            "idark": 0.000114,
+            "lenslSamp": 1.0,
+            "name": "imager",
+            "optics": 0.518018590965876,
+            "pixelNumber": 1024,
+            "pixelScale": 0.0185546875,
+            "pixelSize": 1.3e-05,
+            "sread": 0.0,
+            "texp": 100.0
+        },
+        {
+            "CIC": 0.01,
+            "ENF": 1.0,
+            "FoV": 1.0,
+            "PCeff": 0.8,
+            "QE": "$HOME/INSTRUMENTS/WFIRST/QE/Basic_Multi2_std_Si.fits",
+            "Rs": 50.0,
+            "fnumber": 575.4526999602537,
+            "focal": 1363.8228989058011,
+            "idark": 0.000114,
+            "lenslSamp": 2.0,
+            "name": "spectro",
+            "optics": 0.465846901959329,
+            "pixelNumber": 76,
+            "pixelScale": 0.02631578947368421,
+            "pixelSize": 0.000174,
+            "sread": 0.0,
+            "texp": 100.0
+        }
+    ],
+    "seed": 92449496,
+    "settlingTime": 1.0,
+    "shapeFac": 0.7853981633974483,
+    "skIsp": 220.0,
+    "slewIsp": 4160.0,
+    "smaknee": 30.0,
+    "starlightSuppressionSystems": [
+        {
+            "BW": 0.1,
+            "IWA": 0.15,
+            "OWA": 0.428996,
+            "PSF": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "core_area": "$HOME/INSTRUMENTS/WFIRST/G22_FIT_565/G22_FIT_565_area.fits",
+            "core_contrast": 1e-09,
+            "core_mean_intensity": "$HOME/INSTRUMENTS/WFIRST/G22_FIT_565/G22_FIT_565_mean_intensity.fits",
+            "core_platescale": 0.3,
+            "core_thruput": "$HOME/INSTRUMENTS/WFIRST/G22_FIT_565/G22_FIT_565_thruput.fits",
+            "deltaLam": 56.5,
+            "lam": 565.0,
+            "name": "HLC-565",
+            "occ_trans": "$HOME/INSTRUMENTS/WFIRST/G22_FIT_565/G22_FIT_565_occ_trans.fits",
+            "occulter": false,
+            "ohTime": 1.0,
+            "optics": 0.983647,
+            "samp": 10.0
+        },
+        {
+            "BW": 0.18,
+            "IWA": 0.208876,
+            "OWA": 0.557002,
+            "PSF": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "core_area": "$HOME/INSTRUMENTS/WFIRST/L3_FIT_660/L3_FIT_660_area.fits",
+            "core_contrast": 1e-09,
+            "core_mean_intensity": "$HOME/INSTRUMENTS/WFIRST/L3_FIT_660/L3_FIT_660_mean_intensity.fits",
+            "core_platescale": 0.3,
+            "core_thruput": "$HOME/INSTRUMENTS/WFIRST/L3_FIT_660/L3_FIT_660_thruput.fits",
+            "deltaLam": 118.8,
+            "lam": 660.0,
+            "name": "SPC-660",
+            "occ_trans": "$HOME/INSTRUMENTS/WFIRST/L3_FIT_660/L3_FIT_660_occ_trans.fits",
+            "occulter": false,
+            "ohTime": 1.0,
+            "optics": 0.9154706,
+            "samp": 10.0
+        }
+    ],
+    "staticStars": true,
+    "thrust": 450.0,
+    "varEZ": 0.0,
+    "wrange": [
+        0.0,
+        360.0
+    ]
+}

@@ -1,0 +1,96 @@
+{
+  "missionLife": 1.0,
+  "missionPortion": 1.0,
+  "keepStarCatalog": false,
+  "rvplanetfilepath": "/Users/rhonda/exosims.2.0/scriptsrm/RVplanets_ipac_2016-06-15.votable",
+  "minComp": 0.1,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26.0,
+  "telescopeKeepout": 45,
+  "attenuation": 0.6333,
+  "intCutoff": 100.0,
+  "magZ": 23.34,
+  "magEZ": 23.34,
+  "ppFact": 0.1,
+  "prange": [0.2, 0.2],
+  "erange": [0, 0.01],
+  "scaleOrbits": true,
+  "scienceInstruments": [
+    {
+      "name": "imager-EMCCD",
+      "QE": 0.91,
+      "focal": 120,
+      "pitch": 5e-6,
+      "idark": 5e-4,
+      "CIC": 3e-3,
+      "sread": 0.2,
+      "ENF": 1,
+      "texp": 1000
+    },
+    {
+      "name": "spectro-EMCCD",
+      "QE": 0.91,
+      "focal": 120,
+      "pitch": 5e-6,
+      "idark": 5e-4,
+      "CIC": 3e-3,
+      "sread": 0.2,
+      "ENF": 1,
+      "texp": 1000,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC-550",
+      "IWA": 0.0709,
+      "OWA": 0.7094,
+      "lam": 550,
+      "BW": 0.20,
+      "occ_trans": 0.3471,
+      "core_thruput": 0.02, 
+      "core_mean_intensity": 4e-14
+    },
+    {
+      "name": "HLC-750",
+      "IWA": 0.0709,
+      "OWA": 0.7094,
+      "ohTime": 0.02,
+      "lam": 750,
+      "occ_trans": 0.3471,
+      "core_thruput": 0.02, 
+      "core_mean_intensity": 4e-14
+    }
+  ],
+    "observingModes": [
+    {
+      "instName": "imager-EMCCD",
+      "systName": "HLC-550",
+      "detection": true,
+      "SNR": 5
+    },
+    {
+      "instName": "spectro-EMCCD",
+      "systName": "HLC-750",
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "KnownRVPlanets",
+    "StarCatalog": " ",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": " ",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": " ",
+    "TargetList": "KnownRVPlanetsTargetList",
+    "SimulatedUniverse": "KnownRVPlanetsUniverse",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": " "
+  }
+}
+

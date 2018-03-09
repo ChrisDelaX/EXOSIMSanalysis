@@ -1,0 +1,97 @@
+{
+  "missionLife": 1,
+  "missionPortion": 1,
+  "minComp": 0,
+  "dMagLim": 22.5,
+  "pupilDiam": 2.37,
+  "obscurFac": 0.14728,
+  "attenuation": 0.441,
+  "ppFact": 0.1,
+  "scienceInstruments": [
+    {
+      "name": "imaging-EMCCD",
+      "QE": 0.88,
+      "idark":2.00e-4,
+      "CIC": 2.10e-3,
+      "sread": 0,
+      "ENF": 1.414
+    },
+    {
+      "name": "spectro-CCD",
+      "QE": 0.88,
+      "CIC": 0.0013,
+      "sread": 3,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC-565",
+      "lam": 565,
+      "BW": 0.10,
+      "occ_trans": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_0.4mas_jitter_1.0mas_star_results_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_0.4mas_jitter_1.0mas_star_results_thruput.fits",
+      "core_mean_intensity": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_0.4mas_jitter_1.0mas_star_results_mean_intensity.fits",
+      "core_area": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_0.4mas_jitter_1.0mas_star_results_area.fits",
+      "platescale": 0.30
+    },
+    {
+      "name": "SPC-800",
+      "lam": 800,
+      "BW": 0.18,
+      "IWA": 0.17,
+      "OWA": 0.64,
+      "occ_trans": 0.2,
+      "core_thruput": 0.015,
+      "core_mean_intensity": 1.6e-12,
+      "core_area": 0.003
+      }
+  ],
+  "observingModes": [
+    {
+      "instName": "imaging-EMCCD",
+      "systName": "HLC-565",
+      "detectionMode": true
+    },
+    {
+      "instName": "imaging-EMCCD",
+      "systName": "HLC-565",
+      "lam": 660,
+      "BW": 0.18
+    },
+    {
+      "instName": "spectro-CCD",
+      "systName": "SPC-800",
+      "lam": 660,
+      "SNR": 10
+    },
+    {
+      "instName": "spectro-CCD",
+      "systName": "SPC-800",
+      "lam": 770,
+      "SNR": 10
+    },
+    {
+      "instName": "spectro-CCD",
+      "systName": "SPC-800",
+      "lam": 890,
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "KeplerLike2",
+    "StarCatalog": "EXOCAT1", 
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": "TimeKeeping",
+    "PostProcessing": "PostProcessing",
+    "Completeness": " ",
+    "TargetList": "TargetList",
+    "SimulatedUniverse": "KeplerLikeUniverse",
+    "SurveySimulation": "starkAYO",
+    "SurveyEnsemble": "SurveyEnsemble"
+  }
+}

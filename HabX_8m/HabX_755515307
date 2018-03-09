@@ -1,0 +1,660 @@
+{
+    "DRM": [
+        {
+            "arrival_time": 0.0,
+            "char_1_success": 1,
+            "char_1_time": 0.5010314205842545,
+            "det_WA": 155.85972948644715,
+            "det_dMag": 23.88445117808622,
+            "det_int_time": 1.0020716085348704,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 1.503103029119125,
+            "det_WA": 156.1158937410055,
+            "det_dMag": 23.90930244133753,
+            "det_int_time": 1.0021418241164104,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 2.5052448532355354,
+            "det_WA": 156.2672013299092,
+            "det_dMag": 23.925951436755572,
+            "det_int_time": 1.002190441584358,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 3.5074352948198935,
+            "det_WA": 156.4028875410037,
+            "det_dMag": 23.942662384951664,
+            "det_int_time": 1.0022405549496947,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 4.509675849769588,
+            "det_WA": 156.52292943307947,
+            "det_dMag": 23.950858400037657,
+            "det_int_time": 1.0022656277974735,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 5.511941477567062,
+            "det_WA": 156.62731478734648,
+            "det_dMag": 23.937392327556726,
+            "det_int_time": 1.002224606155562,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 6.514166083722624,
+            "det_WA": 156.7160428708448,
+            "det_dMag": 23.924029639607497,
+            "det_int_time": 1.0021847636845331,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 7.516350847407157,
+            "det_WA": 156.78913455267244,
+            "det_dMag": 23.910771074393203,
+            "det_int_time": 1.0021460612001354,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 8.518496908607293,
+            "det_WA": 156.846623576913,
+            "det_dMag": 23.897617297076401,
+            "det_int_time": 1.0021084608993045,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 9.520605369506598,
+            "det_WA": 156.8885564269131,
+            "det_dMag": 23.884568905314431,
+            "det_int_time": 1.0020719263222173,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 10.522677295828816,
+            "det_WA": 156.91499219260734,
+            "det_dMag": 23.871626434544311,
+            "det_int_time": 1.002036422313868,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 11.524713718142683,
+            "det_WA": 156.92600244083084,
+            "det_dMag": 23.858790363027282,
+            "det_int_time": 1.0020019149854187,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 12.526715633128102,
+            "det_WA": 156.92167108853383,
+            "det_dMag": 23.846061116662458,
+            "det_int_time": 1.0019683716755328,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 13.528684004803635,
+            "det_WA": 156.90209427878895,
+            "det_dMag": 23.833439073579086,
+            "det_int_time": 1.0019357609118784,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 15.001935760911879,
+            "det_WA": 156.84584874479037,
+            "det_dMag": 23.815074818066108,
+            "det_int_time": 1.0018894398346094,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 16.003825200746487,
+            "det_WA": 156.78909848608234,
+            "det_dMag": 23.802718965251429,
+            "det_int_time": 1.0018590051992047,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 17.00568420594569,
+            "det_WA": 156.71752957082725,
+            "det_dMag": 23.790471317633298,
+            "det_int_time": 1.0018294025754477,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 18.00751360852114,
+            "det_WA": 156.63129134806087,
+            "det_dMag": 23.77833209055181,
+            "det_int_time": 1.0018006053469308,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 19.00931421386807,
+            "det_WA": 156.53054475700023,
+            "det_dMag": 23.766301473177695,
+            "det_int_time": 1.0017725878843962,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 20.011086801752466,
+            "det_WA": 156.41546221684436,
+            "det_dMag": 23.754379631885676,
+            "det_int_time": 1.0017453255111604,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 21.012832127263625,
+            "det_WA": 156.28622751780048,
+            "det_dMag": 23.742566713469827,
+            "det_int_time": 1.001718794469403,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 22.01455092173303,
+            "det_WA": 156.14303571302636,
+            "det_dMag": 23.730862848208254,
+            "det_int_time": 1.0016929718873497,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 23.01624389362038,
+            "det_WA": 155.98609301115744,
+            "det_dMag": 23.719268152784252,
+            "det_int_time": 1.0016678357473758,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 24.017911729367757,
+            "char_1_success": 1,
+            "char_1_time": 0.03772976210161936,
+            "det_WA": 986.6818170682029,
+            "det_dMag": 24.397228724402794,
+            "det_int_time": 1.000162665892574,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 25.05580415736195,
+            "det_WA": 986.8616773105568,
+            "det_dMag": 24.397607002416329,
+            "det_int_time": 1.00016276672166,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 26.055966924083613,
+            "det_WA": 987.0141386789712,
+            "det_dMag": 24.397933176610632,
+            "det_int_time": 1.0001628549947783,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 27.05612977907839,
+            "det_WA": 987.1461243222384,
+            "det_dMag": 24.398221708342884,
+            "det_int_time": 1.0001629345234042,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 29.000162934523406,
+            "det_WA": 987.344071214954,
+            "det_dMag": 24.398674847390463,
+            "det_int_time": 1.000163067842398,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 30.000326002365803,
+            "det_WA": 154.52890940207928,
+            "det_dMag": 23.641461765428936,
+            "det_int_time": 1.001509977082495,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 31.0018359794483,
+            "det_WA": 154.27099904684272,
+            "det_dMag": 23.630740883670114,
+            "det_int_time": 1.001489618224975,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 32.003325597673275,
+            "det_WA": 154.0016694269596,
+            "det_dMag": 23.620130026433863,
+            "det_int_time": 1.0014697817051377,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 33.004795379378415,
+            "det_WA": 153.72123196632444,
+            "det_dMag": 23.609629307808401,
+            "det_int_time": 1.0014504524835535,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 34.00624583186197,
+            "det_WA": 153.43000798408792,
+            "det_dMag": 23.599238852663884,
+            "det_int_time": 1.001431616086183,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        },
+        {
+            "arrival_time": 35.00767744794815,
+            "det_WA": 987.4659473241525,
+            "det_dMag": 24.399176720526992,
+            "det_int_time": 1.0001633054807664,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                3
+            ],
+            "target_ind": 3
+        },
+        {
+            "arrival_time": 36.007840753428916,
+            "det_WA": 152.81692973074038,
+            "det_dMag": 23.578801920684448,
+            "det_int_time": 1.0013953886177238,
+            "det_status": [
+                1
+            ],
+            "plan_inds": [
+                6
+            ],
+            "target_ind": 8
+        }
+    ],
+    "FAP": 3e-05,
+    "IWA": 0.0567,
+    "Irange": [
+        0.0,
+        180.0
+    ],
+    "MDP": 0.001,
+    "Mprange": [
+        1.0,
+        1.0
+    ],
+    "Ndark": 10.0,
+    "Npix": 14.3,
+    "OWA": 1.03,
+    "Orange": [
+        0.0,
+        360.0
+    ],
+    "Rprange": [
+        1.0,
+        1.0
+    ],
+    "SNchar": 10.0,
+    "SNimag": 5.0,
+    "arange": [
+        0.7,
+        1.5
+    ],
+    "attenuation": 0.6333,
+    "coMass": 5800.0,
+    "constrainOrbits": true,
+    "currentTimeAbs": "2024-11-20T00:00:00.000(TAI)",
+    "currentTimeNorm": 0.0,
+    "dMagLim": 26.0,
+    "defburnPortion": 0.05,
+    "dryMass": 3400.0,
+    "dtAlloc": 1.0,
+    "duration": 14.0,
+    "erange": [
+        0.0,
+        0.35
+    ],
+    "extendedLife": 0.0,
+    "haveOcculter": false,
+    "havejplephem": true,
+    "intCutoff": 50.0,
+    "keepStarCatalog": false,
+    "magEZ": 22.0,
+    "magZ": 23.0,
+    "minComp": 0.1,
+    "missionFinishAbs": "2024-12-26T12:36:00.000(TAI)",
+    "missionFinishNorm": 36.525,
+    "missionLife": 0.1,
+    "missionPortion": 1.0,
+    "missionStart": "2024-11-20T00:00:00.000(TAI)",
+    "modules": {
+        "BackgroundSources": "GalaxiesFaintStars",
+        "Completeness": "BrownCompleteness",
+        "Observatory": "WFIRSTObservatoryL2",
+        "OpticalSystem": "Nemati",
+        "PlanetPhysicalModel": "Forecaster",
+        "PlanetPopulation": "EarthTwinHabZone2",
+        "PostProcessing": "PostProcessing",
+        "SimulatedUniverse": "SimulatedUniverse",
+        "StarCatalog": "EXOCATXLS",
+        "SurveyEnsemble": "SurveyEnsemble",
+        "SurveySimulation": "SurveySimulation",
+        "TargetList": "TargetList",
+        "TimeKeeping": "TimeKeeping",
+        "ZodiacalLight": "Stark"
+    },
+    "nEZ": 1.5,
+    "nStars": 9,
+    "nextTimeAvail": 0.0,
+    "obscurFac": 0.0,
+    "occulterSep": 55000.0,
+    "ppFact": 0.1,
+    "prange": [
+        0.367,
+        0.367
+    ],
+    "pupilArea": 50.26548245743669,
+    "pupilDiam": 8.0,
+    "rrange": [
+        0.45499999999999996,
+        2.0250000000000004
+    ],
+    "scMass": 6000.0,
+    "scaleOrbits": true,
+    "scienceInstruments": [
+        {
+            "BW": 0.2,
+            "CIC": 0.003,
+            "ENF": 1.0,
+            "Gem": 450.0,
+            "Ns": 1.0,
+            "QE": 0.91,
+            "Rs": 70.0,
+            "darkCurrent": 0.0001,
+            "deltaLam": 110.0,
+            "focal": 240.0,
+            "idark": 9e-05,
+            "lam": 550.0,
+            "pitch": 1.3e-05,
+            "sread": 0.1,
+            "texp": 1000.0,
+            "type": "imaging-EMCCD"
+        },
+        {
+            "BW": 0.1,
+            "CIC": 0.003,
+            "ENF": 1.0,
+            "Gem": 450.0,
+            "Ns": 7.0,
+            "QE": 0.91,
+            "Rs": 70.0,
+            "darkCurrent": 0.0001,
+            "deltaLam": 100.0,
+            "focal": 240.0,
+            "idark": 9e-05,
+            "lam": 1000.0,
+            "pitch": 1.3e-05,
+            "sread": 0.1,
+            "texp": 1000.0,
+            "type": "spectro-EMCCD"
+        }
+    ],
+    "seed": 755515307,
+    "settlingTime": 1.0,
+    "shapeFac": 0.7853981633974483,
+    "skIsp": 220.0,
+    "slewIsp": 4160.0,
+    "starlightSuppressionSystems": [
+        {
+            "IWA": 0.0567,
+            "OWA": 0.567,
+            "PSF": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "charTimeMult": 1.0,
+            "contrast": 1e-10,
+            "imagTimeMult": 1.0,
+            "ohTime": 1.0,
+            "samp": 10.0,
+            "throughput": 0.3,
+            "type": "internal-imaging-HLC"
+        },
+        {
+            "IWA": 0.103,
+            "OWA": 1.03,
+            "PSF": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "charTimeMult": 1.0,
+            "contrast": 1e-10,
+            "imagTimeMult": 1.0,
+            "ohTime": 1.0,
+            "samp": 10.0,
+            "throughput": 0.3,
+            "type": "internal-spectro-HLC"
+        }
+    ],
+    "telescopeKeepout": 45.0,
+    "thrust": 450.0,
+    "varEZ": 0.0,
+    "wrange": [
+        0.0,
+        360.0
+    ]
+}

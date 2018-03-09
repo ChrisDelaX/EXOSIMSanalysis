@@ -1,0 +1,99 @@
+{
+  "missionLife": 0.3,
+  "missionPortion": 1.0,
+  "ohTime": 0.0,
+  "keepStarCatalog": true,
+  "minComp": 0.1,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 25.5,
+  "telescopeKeepout": 45,
+  "attenuation": 0.3,
+  "intCutoff": 60.0,
+  "settlingTime": 0.0, 
+  "ppFact": 0.1,
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.01],
+  "eta": 1.0,
+  "arange":[0.75, 1.77],
+  "Rprange":[1.0, 1.0],
+  "Mprange":[1, 1],
+  "scaleOrbits": true,
+  "constrainOrbits": true,
+  "scienceInstruments": [
+    {
+      "name": "imagingEMCCD",
+      "focal": 10,
+      "pitch": 0.305e-6,
+      "QE": 0.9,
+      "idark": 1e-4,
+      "CIC": 0.0013,
+      "sread": 0.01,
+      "ENF": 1,
+      "texp": 10
+    },
+    {
+      "name": "spectroEMCCD",
+      "focal": 10,
+      "pitch": 0.305e-6,
+      "QE": 0.9,
+      "idark": 1e-4,
+      "CIC": 0.0013,
+      "sread": 0.01,
+      "ENF": 1,
+      "texp": 90,
+      "Rs": 140
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC550",
+      "lam": 500,
+      "IWA": 0.05,
+      "ohTime": 0.0,
+      "throughput": 0.2,
+      "BW": 0.10,
+      "occ_trans": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_core_mean_intensity.fits"
+    },
+        {
+      "name": "HLC1000",
+      "lam": 1000,
+      "ohTime": 0.0,
+      "occ_trans": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "/Users/cdelacroix/INSTRUMENTS/HabEx/VC6/VC6_core_mean_intensity.fits"
+    }
+  ],
+      "observingModes": [
+    {
+      "instName": "imagingEMCCD",
+      "systName": "HLC550",
+      "detection": 1,
+      "SNR": 7
+    },
+    {
+      "instName": "spectroEMCCD",
+      "systName": "HLC1000",
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "EarthTwinHabZone1",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": " ",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "GarrettCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": " ",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": " "
+  }
+}
+

@@ -1,0 +1,24 @@
+Usage notes
+turmon 10/2016
+
+Put these files in this directory:
+
+  4m_CpCb_20160824-cd-mods-determ.json
+  RVplanets_ipac_2016-06-15.votable
+
+Run:
+
+  $ python make_keepout.py
+
+It dumps results as .csv to /tmp
+
+Run:
+
+  $ matlab
+  >> exosims_keepout_graphics
+
+It needs to access the CSV's -- edit it to uncomment the ROOT_DIR line so it looks in /tmp.
+It needs the export_fig command (https://www.mathworks.com/matlabcentral/fileexchange/23629-export-fig)
+
+It will put movies and graphics into /tmp.
+

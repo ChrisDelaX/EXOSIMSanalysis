@@ -1,0 +1,87 @@
+{
+  "missionLife": 0.3,
+  "missionPortion": 1,
+  "minComp": 0,
+  "dMagLim": 22.5,
+  "pupilDiam": 2.37,
+  "obscurFac": 0.1024,
+  "attenuation": 0.441,
+  "ppFact": 0.1,
+  "scienceInstruments": [
+    {
+      "name": "imager",
+      "QE": 0.72,
+      "sread": 0.0013,
+      "idark": 0.00003,
+      "CIC": 0.0021,
+      "pitch": 0.000013,
+      "focal": 144.52
+    },
+    {
+      "name": "spectro",
+      "QE": 0.72,
+      "sread": 0.0013,
+      "idark": 0.00003,
+      "CIC": 0.0021,
+      "pitch": 0.000174,
+      "focal": 1363.82,
+      "Rs": 50
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC-565",
+      "lam": 565,
+      "BW": 0.10,
+      "IWA": 0.15,
+      "occ_trans": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_1.6mas_jitter_1.0mas_star_results_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_1.6mas_jitter_1.0mas_star_results_thruput.fits",
+      "core_mean_intensity": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_1.6mas_jitter_1.0mas_star_results_mean_intensity.fits",
+      "core_area": "$HOME/INSTRUMENTS/WFIRST/hlc-20160125/hlc-20160125_1.6mas_jitter_1.0mas_star_results_area.fits",
+      "platescale": 0.30
+    },
+    {
+      "name": "SPC-800",
+      "lam": 800,
+      "BW": 0.18,
+      "IWA": 0.19,
+      "occ_trans": "$HOME/INSTRUMENTS/WFIRST/sp-20140902/spc-20140902_1.6mas_jitter_1.0mas_star_results_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/WFIRST/sp-20140902/spc-20140902_1.6mas_jitter_1.0mas_star_results_thruput.fits",
+      "core_mean_intensity": "$HOME/INSTRUMENTS/WFIRST/sp-20140902/spc-20140902_1.6mas_jitter_1.0mas_star_results_mean_intensity.fits",
+      "core_area": "$HOME/INSTRUMENTS/WFIRST/sp-20140902/spc-20140902_1.6mas_jitter_1.0mas_star_results_area.fits",
+      "platescale": 0.30
+    }
+  ],
+  "observingModes": [
+    {
+      "instName": "imager",
+      "systName": "HLC-565",
+      "lam": 565,
+      "SNR": 5,
+      "detectionMode": true
+    },
+    {
+      "instName": "spectro",
+      "systName": "SPC-800",
+      "lam": 800,
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "KeplerLike1",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": " ",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "GarrettCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": "KeplerLikeUniverse",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": "IPClusterEnsemble"
+  }
+}
+

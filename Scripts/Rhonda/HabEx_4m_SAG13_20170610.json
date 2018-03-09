@@ -1,0 +1,98 @@
+{
+  "missionLife": 0.1,
+  "missionPortion": 1,
+
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26,
+  "minComp": 0.1,
+  "ohTime": 0.1,
+  "settlingTime": 0.05,
+  "koAngleMin": 40,
+  "koAngleMax": 83,
+  "optics": 0.3,
+  "intCutoff": 60.0,
+  "ppFact": 0.1,
+  
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.01],
+  "scaleOrbits": true,
+  "constrainOrbits": true,
+
+  "scienceInstruments": [
+    { "name": "imager",
+      "QE": 0.9,
+      "FoV": 3.146,
+      "pixelNumber": 1000,
+      "pixelSize": 1.3e-5,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 1.3e-3,
+      "texp": 100,
+      "ENF": 1
+    },
+    { "name": "spectro",
+      "QE": 0.72,
+      "FoV": 1.0,
+      "pixelNumber": 76,
+      "pixelSize": 1.74e-4,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 2.1e-3,
+      "texp": 30,
+      "ENF": 1,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC550",
+      "lam": 500,
+      "IWA": 0.05,
+      "OWA": 0,
+      "BW": 0.10,
+      "occ_trans": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_mean_intensity.fits"
+    },
+        {
+      "name": "HLC1000",
+      "lam": 1000,
+      "IWA": 0.15,
+      "OWA": 0,
+      "occ_trans": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "$HOME/INSTRUMENTS/HabEx/VC6/VC6_core_mean_intensity.fits"
+    }
+  ],
+      "observingModes": [
+    {
+      "instName": "imager",
+      "systName": "HLC550",
+      "detection": 1,
+      "SNR": 7
+    },
+    {
+      "instName": "spectro",
+      "systName": "HLC1000",
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "SAG13",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "Nemati",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": " ",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "BrownCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": "SAG13Universe",
+    "SurveySimulation": "cbytScheduler",
+    "SurveyEnsemble": " "
+  }
+}
+

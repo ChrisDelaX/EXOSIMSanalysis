@@ -1,0 +1,103 @@
+{
+  "missionLife": 2.0,
+  "missionPortion": 0.8,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26.0,
+  "minComp": 0.036,
+  "ohTime": 0.2,
+  "settlingTime": 0.025,
+  "koAngleMin": 45,
+  "intCutoff": 60.0,
+  "ppFact": 0.1,
+  "charMargin": 0.25,
+  
+  "prange":[0.4, 0.4],
+  "erange":[0, 0.01],
+  "scaleOrbits": true,
+  "constrainOrbits": true,
+
+  "scienceInstruments": [
+    { "name": "imager",
+      "QE": 0.9,
+      "optics": 0.65,
+      "FoV": 0.8,
+      "pixelNumber": 138,
+      "pixelSize": 16e-6,
+      "core_platescale": 0.2441,
+      "lenslSamp": 1,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 1.3e-3,
+      "texp": 100,
+      "ENF": 1
+    },
+    { "name": "spectro",
+      "QE": 0.9,
+      "optics": 0.65,
+      "FoV": 1.15,
+      "pixelNumber": 133,
+      "pixelSize": 1.73e-4,
+      "core_platescale": 0.2441,
+      "lenslSamp": 1,
+      "sread": 1.7e-6,
+      "idark": 3e-5,
+      "CIC": 1.3e-3,
+      "texp": 300,
+      "ENF": 1,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC550",
+      "lam": 500,
+      "IWA": 0.045,
+      "BW": 0.20,
+      "ohTime": 0.1,
+      "occ_trans": "/proj/exep/rhonda/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "/proj/exep/rhonda/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "/proj/exep/rhonda/HabEx/VC6/VC6_core_mean_intensity.fits"
+    },
+        {
+      "name": "HLC1000",
+      "lam": 746,
+      "ohTime": 0.1,
+      "IWA": 0.067,
+      "BW": 0.20,
+      "occ_trans": "/proj/exep/rhonda/HabEx/VC6/VC6_occ_trans.fits",
+      "core_thruput": "/proj/exep/rhonda/HabEx/VC6/VC6_core_thruput.fits", 
+      "core_mean_intensity": "/proj/exep/rhonda/HabEx/VC6/VC6_core_mean_intensity.fits"
+    }
+  ],
+      "observingModes": [
+    {
+      "instName": "imager",
+      "systName": "HLC550",
+      "detection": 1,
+      "SNR": 7
+    },
+    {
+      "instName": "spectro",
+      "systName": "HLC1000",
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": " ",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "KasdinBraems",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": " ",
+    "PlanetPhysicalModel": "Forecaster",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": "BrownCompleteness",
+    "TargetList": " ",
+    "SimulatedUniverse": "SAG13Universe",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": "IPClusterEnsemble"
+  }
+}
+

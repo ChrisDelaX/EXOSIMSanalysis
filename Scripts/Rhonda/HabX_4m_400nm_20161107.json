@@ -1,0 +1,100 @@
+{
+  "missionLife": 1.0,
+  "missionPortion": 1.0,
+  "keepStarCatalog": true,
+  "minComp": 0.1,
+  "pupilDiam": 4,
+  "obscurFac": 0,
+  "dMagLim": 26.0,
+  "telescopeKeepout": 60,
+  "attenuation": 0.6,
+  "intCutoff": 100.0,
+  "settlingTime": 0.0,  
+  "FAP": 3e-5,
+  "MDP": 1e-3, 
+  "ppFact": 0.1,
+  "prange":[0.2, 0.2],
+  "erange":[0, 0.35],
+  "eta": 0.1,
+  "scaleOrbits": true,
+  "scienceInstruments": [
+    {
+      "name": "imaging-EMCCD",
+      "focal": 120,
+      "pitch": 5e-6,
+      "QE": 0.8,
+      "idark": 1e-4,
+      "CIC": 0,
+      "sread": 0.1,
+      "ENF": 1,
+      "texp": 1000
+    },
+    {
+      "name": "spectro-EMCCD",
+      "focal": 120,
+      "pitch": 5e-6,
+      "QE": 0.8,
+      "idark": 1e-4,
+      "CIC": 0,
+      "sread": 0.1,
+      "ENF": 1,
+      "texp": 1000,
+      "Rs": 70
+    }
+  ],
+  "starlightSuppressionSystems": [
+    {
+      "name": "HLC-550",
+      "lam": 550,
+      "IWA": 0.0415,
+      "OWA": 1.375,
+      "ohTime": 0.5,
+      "throughput": 0.4,
+      "BW": 0.20,
+      "occ_trans": 0.4,
+      "core_thruput": 0.02, 
+      "core_mean_intensity": 4e-14
+    },
+        {
+      "name": "HLC-400",
+      "lam": 400,
+      "BW": 0.1,
+      "IWA": 0.0415,
+      "OWA": 1.0,
+      "ohTime": 0.2,
+      "occ_trans": 0.4,
+      "core_thruput": 0.02, 
+      "core_mean_intensity": 4e-14
+    }
+  ],
+      "observingModes": [
+    {
+      "instName": "imaging-EMCCD",
+      "systName": "HLC-550",
+      "detection": 1,
+      "SNR": 5
+    },
+    {
+      "instName": "spectro-EMCCD",
+      "systName": "HLC-400",
+      "SNR": 10
+    }
+  ],
+  "modules": {
+    "PlanetPopulation": "EarthTwinHabZone2",
+    "StarCatalog": "EXOCAT1",
+    "OpticalSystem": "KasdinBraems",
+    "ZodiacalLight": "Stark",
+    "BackgroundSources": "GalaxiesFaintStars",
+    "PlanetPhysicalModel": " ",
+    "Observatory": "WFIRSTObservatoryL2",
+    "TimeKeeping": " ",
+    "PostProcessing": " ",
+    "Completeness": " ",
+    "TargetList": " ",
+    "SimulatedUniverse": " ",
+    "SurveySimulation": " ",
+    "SurveyEnsemble": " "
+  }
+}
+
